@@ -13,20 +13,24 @@
   font-size: 15px;
 }
 
+.button-styling {
+  color: white;
+  border-radius: 30px;
+}
+
+.test-spacing {
+  margin-top: 100px;
+}
+
+.test-spacing1 {
+  margin-top: 100px;
+}
+
 @media only screen and (max-width: 640px) {
   .first-background {
     margin-bottom: 20px;
   }
-
-  .test-button {
-    display: flex;
-    justify-content: center;
-  }
-}
-
-@media only screen and (min-width: 760px) {
-  .ml-lg-5,
-  .mx-lg-5 {
-    margin-left: 5.45rem !important;
+  .test-spacing1 {
+    margin-top: 300px;
   }
 }
